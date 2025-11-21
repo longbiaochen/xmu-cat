@@ -1,0 +1,7 @@
+{
+  "name": "XMUCat - 厦大流浪猫图鉴",
+  "description": "厦门大学校园流浪猫智能管理系统。支持拍照识别、档案管理、健康记录与领养追踪。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

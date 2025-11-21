@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://api.iconify.design/fluent-emoji:cat-face.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>XMUCat - 厦大流浪猫管理系统</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              xmu: {
+                50: '#eff6ff',
+                100: '#dbeafe',
+                500: '#3b82f6',
+                600: '#2563eb', // Primary Blue similar to XMU Blue
+                700: '#1d4ed8',
+                900: '#1e3a8a',
+              },
+              warm: {
+                50: '#fff7ed',
+                100: '#ffedd5',
+                500: '#f97316',
+              }
+            },
+            animation: {
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 text-slate-800 antialiased">
+    <div id="root"></div>
+  </body>
+</html>
